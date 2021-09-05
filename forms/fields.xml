@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<form>
+    <fields addfieldpath="/administrator/components/com_fabrik/models/fields" name="params">
+
+        <fieldset name="plg-form-recursive-tree" label="COM_FABRIK_OPTIONS">
+
+            <field name="map_elements"
+                   type="fabrikmodalrepeat"
+                   icon="list"
+                   label="PLG_FABRIK_FORM_RECURSIVE_TREE_MAP_ELEMENTS_LABEL"
+                   description="PLG_FABRIK_FORM_RECURSIVE_TREE_MAP_ELEMENTS_DESC"
+            >
+                <fields name="params">
+                    <fieldset modal="true"
+                              name="map_elements_modal"
+                              repeat="true">
+                        <field name="elemento_origem"
+                               label="PLG_FABRIK_FORM_ELEMENTO_ORIGEM_LABEL"
+                               description="PLG_FABRIK_FORM_ELEMENTO_ORIGEM_DESC"
+                               type="listfields"
+                        />
+                        <field name="elemento_destino"
+                               label="PLG_FABRIK_FORM_ELEMENTO_DESTINO_LABEL"
+                               description="PLG_FABRIK_FORM_ELEMENTO_DESTINO_DESC"
+                               type="listfields"
+                        />
+                    </fieldset>
+                </fields>
+            </field>
+
+        </fieldset>
+
+    </fields>
+</form>
