@@ -19,7 +19,7 @@
 
 <br />
 
-<p>Após a configuração e seleção de qual item será organizado como pai, os itens serão exibidos assim:  </p>
+<p>Após a configuração e seleção de qual item será organizado como pai, os itens serão exibidos conforme figura abaixo:  </p>
 
 <div align="center">
   <img src="./.github/3.png" />
